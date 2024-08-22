@@ -25,8 +25,8 @@ function collectInputFlavors() {
       }
     }
   }
+  console.table(inputFlavors);
   console.log(inputFlavors);
-  console.table([arrayFlavors]);
   return inputFlavors;
 }
 collectInputFlavors();
